@@ -1,3 +1,4 @@
+# copyright Nik Murphy, PhD, Nithya Ramakrishnan, MS, CNTC, UTH, Houston 2017
 #### MEG ASSR PRE-PROCESSING PIPELINE 
 # import organisation functions
 import os.path as op
