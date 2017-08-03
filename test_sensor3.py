@@ -2,7 +2,7 @@
 
 # Import and setup environment
 import sys
-sys.path.append('/raid5/rcho/MEG_NM_NR_testing/time_frequency_modules/')
+sys.path.append('path')
 import scipy as sp
 import numpy as np
 import pandas as pd
@@ -24,8 +24,8 @@ class Admin(object):
     datapath='path'
     savepath='path'
     files = []
-Admin.datapath = '/raid5/rcho/MEG_NM_NR_testing/FINALMNE/DATA/epochs/'
-Admin.savepath = '/raid5/rcho/MEG_NM_NR_testing/FINALMNE/DATA/sensor_level_timef/'
+Admin.datapath = 'path'
+Admin.savepath = 'path'
 Admin.files = os.listdir(Admin.datapath)
 # prune files list and add paths
 files = [x for x in Admin.files if "all" in x]
